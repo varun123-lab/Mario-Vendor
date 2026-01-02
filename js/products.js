@@ -186,7 +186,7 @@ let products = [
         category: CATEGORIES.ACCESSORIES,
         price: 15.00,
         originalPrice: 100.00,
-        image: 'https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&h=800&fit=crop&q=80',
+        image: 'images/products/download.jpeg',
         description: 'Apple AirPods wireless earbuds with spatial audio and dynamic head tracking. Adaptive EQ. Sweat and water resistant.',
         sizes: ['One Size'],
         colors: ['White'],
