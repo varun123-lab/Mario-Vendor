@@ -30,7 +30,7 @@ let products = [
         category: CATEGORIES.HOODIES,
         price: 25.00,
         originalPrice: 5000.00,
-        image: 'images/products/WhatsApp Image 2025-12-29 at 1.47.30 PM.jpeg',
+        image: 'images/products/WhatsApp Image 2025-12-29 at 1.46.18 PM.jpeg',
         description: 'Premium cotton hoodie with embroidered Polo logo. Comfortable fit with kangaroo pocket and ribbed cuffs.',
         sizes: ['S', 'M', 'L', 'XL', 'XXL'],
         colors: ['Black', 'Navy', 'Gray'],
