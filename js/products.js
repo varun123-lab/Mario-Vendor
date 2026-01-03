@@ -54,21 +54,6 @@ let products = [
         featured: true
     },
     {
-        id: 3,
-        name: 'Denim Tears Hoodie',
-        brand: BRANDS.DENIM_TEARS,
-        category: CATEGORIES.HOODIES,
-        price: 25.00,
-        originalPrice: 5000.00,
-        image: 'images/products/download copy.jpeg',
-        description: 'African Diaspora Goods collection. Premium French terry material with signature cotton wreath design.',
-        sizes: ['S', 'M', 'L', 'XL'],
-        colors: ['Black', 'Cream'],
-        stock: 8,
-        badge: 'sale',
-        featured: true
-    },
-    {
         id: 4,
         name: 'Essentials Hoodie',
         brand: BRANDS.ESSENTIALS,
