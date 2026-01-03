@@ -5,88 +5,22 @@
 
 // Product categories
 const CATEGORIES = {
-    HOODIES: 'hoodies',
     SWEATERS: 'sweaters',
-    TSHIRTS: 't-shirts',
     ACCESSORIES: 'accessories'
 };
 
 // Available brands
 const BRANDS = {
     RALPH_LAUREN: 'Ralph Lauren',
-    SP5DER: 'Sp5der',
-    DENIM_TEARS: 'Denim Tears',
     ESSENTIALS: 'Essentials',
     APPLE: 'Apple'
 };
 
 // Product catalog data
 let products = [
-    // Hoodies
-    {
-        id: 1,
-        name: 'Ralph Lauren Hoodie',
-        brand: BRANDS.RALPH_LAUREN,
-        category: CATEGORIES.HOODIES,
-        price: 25.00,
-        originalPrice: 5000.00,
-        image: 'images/products/WhatsApp Image 2025-12-29 at 1.46.17 PM.jpeg',
-        description: 'Premium cotton hoodie with embroidered Polo logo. Comfortable fit with kangaroo pocket and ribbed cuffs.',
-        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
-        colors: ['Black', 'Navy', 'Gray'],
-        stock: 25,
-        badge: 'sale',
-        featured: true
-    },
-    {
-        id: 2,
-        name: 'Sp5der Hoodie',
-        brand: BRANDS.SP5DER,
-        category: CATEGORIES.HOODIES,
-        price: 20.00,
-        originalPrice: 5000.00,
-        image: 'images/products/WhatsApp Image 2025-12-29 at 1.46.18 PM.jpeg',
-        description: 'Iconic spider web print design. Heavy-weight fleece construction. Available in multiple vibrant colors including Pink, Blue, Green, Yellow, Purple, Red.',
-        sizes: ['S', 'M', 'L', 'XL'],
-        colors: ['Black', 'Pink', 'Blue', 'Green', 'Yellow', 'Purple', 'Red'],
-        stock: 12,
-        badge: 'sale',
-        featured: true
-    },
-    {
-        id: 3,
-        name: 'Denim Tears Hoodie',
-        brand: BRANDS.DENIM_TEARS,
-        category: CATEGORIES.HOODIES,
-        price: 25.00,
-        originalPrice: 5000.00,
-        image: 'images/products/WhatsApp Image 2025-12-29 at 1.47.59 PM.jpeg',
-        description: 'African Diaspora Goods collection. Premium French terry material with signature cotton wreath design.',
-        sizes: ['S', 'M', 'L', 'XL'],
-        colors: ['Black', 'Cream'],
-        stock: 8,
-        badge: 'sale',
-        featured: true
-    },
-    {
-        id: 4,
-        name: 'Essentials Hoodie',
-        brand: BRANDS.ESSENTIALS,
-        category: CATEGORIES.HOODIES,
-        price: 25.00,
-        originalPrice: 5000.00,
-        image: 'images/products/download copy.jpeg',
-        description: 'Fear of God Essentials oversized fit hoodie with dropped shoulders. Rubberized logo on chest.',
-        sizes: ['XS', 'S', 'M', 'L', 'XL'],
-        colors: ['Oatmeal', 'Black', 'Sage'],
-        stock: 30,
-        badge: 'new',
-        featured: true
-    },
-    
     // Sweaters
     {
-        id: 5,
+        id: 1,
         name: 'Ralph Lauren Sweater',
         brand: BRANDS.RALPH_LAUREN,
         category: CATEGORIES.SWEATERS,
@@ -101,7 +35,7 @@ let products = [
         featured: true
     },
     {
-        id: 6,
+        id: 2,
         name: 'Essentials Sweater',
         brand: BRANDS.ESSENTIALS,
         category: CATEGORIES.SWEATERS,
@@ -116,71 +50,9 @@ let products = [
         featured: true
     },
     
-    // T-Shirts
-    {
-        id: 7,
-        name: 'Ralph Lauren T-Shirt',
-        brand: BRANDS.RALPH_LAUREN,
-        category: CATEGORIES.TSHIRTS,
-        price: 25.00,
-        originalPrice: 5000.00,
-        image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop',
-        description: 'Classic cotton tee featuring the iconic Polo Bear graphic. Premium soft cotton construction.',
-        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
-        colors: ['White', 'Black', 'Navy'],
-        stock: 40,
-        badge: 'sale',
-        featured: false
-    },
-    {
-        id: 8,
-        name: 'Sp5der T-Shirt',
-        brand: BRANDS.SP5DER,
-        category: CATEGORIES.TSHIRTS,
-        price: 25.00,
-        originalPrice: 5000.00,
-        image: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&h=800&fit=crop&q=80',
-        description: 'Premium cotton tee with signature spider web print design. Heavyweight construction.',
-        sizes: ['S', 'M', 'L', 'XL'],
-        colors: ['Black', 'White', 'Pink'],
-        stock: 28,
-        badge: 'sale',
-        featured: true
-    },
-    {
-        id: 9,
-        name: 'Denim Tears T-Shirt',
-        brand: BRANDS.DENIM_TEARS,
-        category: CATEGORIES.TSHIRTS,
-        price: 25.00,
-        originalPrice: 5000.00,
-        image: 'images/products/WhatsApp Image 2025-12-29 at 1.46.57 PM.jpeg',
-        description: 'Heavyweight cotton tee with signature cotton wreath print. African Diaspora Goods collection.',
-        sizes: ['S', 'M', 'L', 'XL'],
-        colors: ['White', 'Black'],
-        stock: 20,
-        badge: 'sale',
-        featured: true
-    },
-    {
-        id: 10,
-        name: 'Essentials T-Shirt',
-        brand: BRANDS.ESSENTIALS,
-        category: CATEGORIES.TSHIRTS,
-        price: 25.00,
-        originalPrice: 5000.00,
-        image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop',
-        description: 'Fear of God Essentials boxy fit tee with rubberized branding on chest.',
-        sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
-        colors: ['Oatmeal', 'Black', 'Sage', 'Cream'],
-        stock: 50,
-        badge: 'new',
-        featured: true
-    },
-    
     // Accessories - AirPods
     {
-        id: 11,
+        id: 3,
         name: 'AirPods',
         brand: BRANDS.APPLE,
         category: CATEGORIES.ACCESSORIES,
